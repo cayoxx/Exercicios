@@ -2,10 +2,10 @@ function verificar() {
 
     const texto = document.getElementById("texto").value;
 
-    if (texto.startsWith("Olá")) {
-        alert("O texto se inicia com Olá");
+    if (texto.endsWith("ção")) {
+        alert("A palavra termina com ção");
     }
     else {
-        alert("O texto não inicia com Olá");
+        alert("O texto não termina com ção");
 }
 }
