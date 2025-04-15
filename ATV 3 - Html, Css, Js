@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicios</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+    <h1>MUDAR DIV</h1>
+    <div id = "cor" class = "cor"></div>
+    <button onclick="mudar()">Mudar</button>
+    <script src="js/script.js"></script>
+</body>
+</html>
+
+-----------------------------------
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cor {
+    background-color: green;
+    width: 200px;
+    height: 200px;
+}
+
+-----------------------------------
+
+function mudar() {
+
+    const corzona = document.getElementById("cor");
+
+    corzona.style.backgroundColor = "red";
+
+}
